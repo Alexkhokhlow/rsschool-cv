@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+}
