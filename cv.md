@@ -10,7 +10,6 @@
 3. #### My goal is to find a good job and love it, I like to learn and learn something new 
 
 4. #### My programming languages ​​and technologies 
- * *Kotlin*
  * *HTML*
  * *Git*
  * *CSS*
