@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,85 @@
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
+
 <body>
-    <h1>My CV</h1>
+    <header>
+        <nav>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#about_me">About me</a></li>
+                <li class="nav_item"><a href="#contact">Contact</a></li>
+                <li class="nav_item"><a href="#skills">Skills</a></li>
+                <li class="nav_item"><a href="#code">Code</a></li>
+                <li class="nav_item"><a href="#project">Project</a></li>
+                <li class="nav_item"><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <div>
+                <h1>Alexey Khoklow</h1>
+                <h3>Front-end developer</h3>
+            </div>
+            
+            <img src="image.jpg" alt="avatar" class="avatar">
+        </section>
+        <section class="about_me">
+            <h2><a name="about_me"></a>About me</h2>
+            <p>I like to study and learn something new. I like to read books, do physical education, listen to music of
+                different genres. I'm fond of good cars and bikes. I lead active and healhy lifestyle.</p>
+        </section>
+        <section class="contact">
+            <h2><a name="contact"></a>Contact</h2>
+            <ul>
+                <li><a href="https://t.me/Lomtik25">Telegram</a></li>
+                <li>Phone: +375 29 294 92 28</li>
+                <li>Discord:@alexkhokhlow#2829</li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2><a name="skills"></a>Skills</h2>
+            <ul>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section class="code">
+            <h2><a name="code"></a>Code</h2>
+            <p>Recursion function in js</p>
+            <pre>
+ function pow(x, n) {
+   if (n == 1) {
+      return x;
+   } else {
+     return x * pow(x, n - 1);
+    }
+  }</pre>
+        </section>
+        <section class="projects">
+            <h2><a name="project"></a>Projects</h2>
+            <P>My study project where i used JS, HTML and CSS </P>
+                <a href="https://rolling-scopes-school.github.io/alexkhokhlow-JSFE2021Q1/wildlife/">Wildlife task</a>
+            </section>
+            <section class="education">
+                <h2><a name="education"></a>Education</h2>
+                <ul>
+                    <li>2019-2022 Minsk State Polytechnic College(MSPC) - Installation and Operation of Electrical Equipment.</li>
+                    <li><a href="https://ru.code-basics.com/languages/html">HTML course</li>
+                    <li><a href="https://ru.code-basics.com/languages/css">CSS course</a></li>
+                    <li>My English level:A2 </li>
+                </ul>
+            </section>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/Alexkhokhlow">Github</a>
+        <span>2022</span>
+        <a href="https://rs.school/js/">
+            <img src="rs_school_js.svg" alt="logo" class="logo">
+        </a>
+    </footer>
 </body>
+
 </html>
