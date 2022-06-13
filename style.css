@@ -9,6 +9,9 @@
     padding: 10px 0;
 }
 
+a {
+    text-decoration: none;
+}
 .info {
     padding-top: 20px;
     display: flex;
@@ -41,5 +44,4 @@ h2{
 body {
     width: 700px;
     margin: 0 auto;
-    padding: 8px;
 }
